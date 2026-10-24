@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de XS-n8n-Backup, una integración privada de Xipetlanix Studio.">
+  <title>Política de privacidad | XS-n8n-Backup</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 0 24px;
+      line-height: 1.7;
+      color: #202938;
+    }
+    h1, h2 { color: #172554; }
+    a { color: #2563eb; }
+    footer {
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Política de privacidad</h1>
+    <p><strong>Aplicación:</strong> XS-n8n-Backup</p>
+    <p><strong>Responsable:</strong> Xipetlanix Studio</p>
+    <p><strong>Última actualización:</strong> 24 de octubre de 2026</p>
+
+    <h2>1. Finalidad</h2>
+    <p>
+      XS-n8n-Backup es una integración privada utilizada para
+      transferir y almacenar copias de seguridad de una instalación
+      local de n8n en Google Drive.
+    </p>
+
+    <h2>2. Acceso a Google Drive</h2>
+    <p>
+      La aplicación utiliza rclone y el protocolo OAuth 2.0 de
+      Google. El propietario de la cuenta debe autorizar el
+      acceso antes de que se puedan realizar transferencias.
+    </p>
+    <p>
+      Los permisos concedidos se utilizan para las operaciones
+      de almacenamiento y recuperación de respaldos.
+      El alcance efectivo del acceso depende de los permisos
+      autorizados durante la conexión.
+    </p>
+
+    <h2>3. Información procesada</h2>
+    <p>
+      Los respaldos pueden contener configuraciones,
+      automatizaciones, datos operativos y credenciales cifradas
+      de n8n. Estos archivos se procesan únicamente para
+      efectuar copias de seguridad y permitir su recuperación.
+    </p>
+
+    <h2>4. Seguridad</h2>
+    <p>
+      La integración está diseñada para utilizar cifrado local
+      antes de transferir respaldos a Google Drive.
+      Las credenciales OAuth y las claves de cifrado deben
+      mantenerse fuera de los repositorios públicos.
+    </p>
+
+    <h2>5. Compartición de datos</h2>
+    <p>
+      XS-n8n-Backup no está diseñado para comercializar,
+      vender ni distribuir información personal a terceros.
+      Google Drive actúa como proveedor del servicio de
+      almacenamiento autorizado por el propietario de la cuenta.
+    </p>
+
+    <h2>6. Conservación y eliminación</h2>
+    <p>
+      Los archivos de respaldo se conservarán de acuerdo con
+      la política de retención configurada por el propietario.
+      El propietario puede eliminar los respaldos almacenados
+      y revocar los permisos OAuth desde su cuenta de Google.
+    </p>
+
+    <h2>7. Uso de la aplicación</h2>
+    <p>
+      Esta integración está destinada al uso privado de
+      Xipetlanix Studio y no constituye un servicio público
+      de almacenamiento o respaldo para terceros.
+    </p>
+
+    <h2>8. Contacto</h2>
+    <p>
+      Para consultas relacionadas con esta política:
+      <a href="mailto:xipetlanixstudio@gmail.com">
+        xipetlanixstudio@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <a href="index.html">Volver a la página principal</a>
+    </p>
+  </main>
+
+  <footer>© 2026 Xipetlanix Studio</footer>
+</body>
+</html>
